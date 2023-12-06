@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@100;700;800&display=swap');
+
+@font-face {
+  font-family: Druk-Bold-Trial;
+  src: url("../fonts/Druk-Bold-Trial.otf") format("opentype");
+}
+
+.main_title{
+  @apply  text-black dark:text-light text-2xl font-medium
+}
+
+.param{
+
+  @apply  text-gray-500  text-base  font-medium
+}
+
+@media screen and (max-width:1080px) {
+
+  #wrapper{
+    margin-left: 0 !important;
+  }
+  
+}
+
+
+
+
+
+
+
